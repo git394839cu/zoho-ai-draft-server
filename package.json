@@ -1,0 +1,15 @@
+{
+  "name": "zoho-ai-draft-server",
+  "version": "1.0.0",
+  "description": "Serverless function for generating AI email drafts in Zoho",
+  "main": "api/generate.js",
+  "scripts": {
+    "start": "node api/generate.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
